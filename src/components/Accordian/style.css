@@ -1,0 +1,58 @@
+.accordian
+{
+padding: 0px;
+margin: 0px;
+border: 0px;
+width: 380px;
+}
+
+.itemHeader
+{
+padding: 10px;
+margin: 0px;
+border: 0px;
+color: white;
+background-color: pink;
+font: 30px arial, sans-serif;
+display: flex;
+justify-content: space-between;
+}
+
+.headerContent
+{
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+
+.headerControlIcon
+{
+padding: 0px;
+margin: 0px;
+border: 0px;
+}
+
+/*.itemContent
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding:5px;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.itemContent
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+/*    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    line-height:30px;
+}
